@@ -1,8 +1,8 @@
 const express = require("express");
-const userRouter = require("./routers/user");
+const userRouter = require("./src/routers/user");
 const cors = require("cors");
 require("dotenv").config();
-require("./db/db");
+require("./src/db/db");
 
 /* Asigna el puerto que viene del archivo .env */
 const PORT = process.env.PORT || 5000;
