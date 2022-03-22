@@ -19,7 +19,7 @@ app.use(
 );
 
 /* Rutas */ 
-app.use(userRouter);
+app.use("/users", userRouter);
 
 /* Las conexiones son escuchadas por PORT */
 app.get('/', (req, res) => {
