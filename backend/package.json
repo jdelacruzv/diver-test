@@ -1,7 +1,7 @@
 {
-  "name": "diver-one",
+  "name": "diver-test",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon .",
     "start": "node ."
